@@ -9,10 +9,13 @@
 int main(void)
 {
 int i;
-for (int i = 'A'; i <= 'Z'; i++)
+int lower_i;
+while (i <= 'Z')
 {
-int lower_i = tolower(i);
+i = 'A';
+lower_i = tolower(i);
 putchar(lower_i);
-return (0);
+i++;
 }
+return (0);
 }
