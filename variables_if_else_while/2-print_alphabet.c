@@ -8,13 +8,10 @@
 */
 int main(void)
 {
-int i;
-int lower_i;
+int i = 'A';
 while (i <= 'Z')
 {
-i = 'A';
-lower_i = tolower(i);
-putchar(lower_i);
+putchar(i + 32);
 i++;
 }
 return (0);
