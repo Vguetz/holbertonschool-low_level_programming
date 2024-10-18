@@ -14,5 +14,6 @@ while (i <= 'Z')
 putchar(i + 32);
 i++;
 }
+putchar('\n');
 return (0);
 }
