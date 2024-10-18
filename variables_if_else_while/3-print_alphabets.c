@@ -7,11 +7,16 @@
 int main(void)
 {
 int i = 'A';
+int x = 'A';
 while (i <= 'Z')
 {
 putchar(i + 32);
-putchar (i);
 i++;
+}
+while (x <= 'Z')
+{
+putchar(x);
+x++;
 }
 putchar('\n');
 return (0);
