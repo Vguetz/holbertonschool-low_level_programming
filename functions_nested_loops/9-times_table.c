@@ -39,6 +39,10 @@ void times_table(void)
 			print_number(product);
 			if (j < 9)
 			{
+				if (product < 10)
+				{
+					_putchar(' ');
+				}
 				_putchar(',');
 				_putchar(' ');
 			}
