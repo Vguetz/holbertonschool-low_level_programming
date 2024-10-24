@@ -27,28 +27,40 @@ void print_number(int n)
  */
 void times_table(void)
 {
-	int product;
-	int i = 0, j;
+int product;
+int i = 0, j;
 
-	while (i <= 9)
-	{
-		j = 0;
-		while (j <= 9)
-		{
-			product = i * j;
-			print_number(product);
-			if (j < 9)
-			{
-				_putchar(',');
-				_putchar(' ');
-				if (product < 10)
-				{
-					_putchar(' ');
-				}
-			}
-			j++;
-		}
-		_putchar('\n');
-		i++;
-	}
+while (i <= 9)
+{
+j = 0;
+while (j <= 9)
+{
+product = i * j;
+if (product < 10)
+{
+if (j > 0)
+{
+_putchar(' ');
+_putchar(' ');
 }
+print_number(product);
+}
+else
+{
+if (j > 0)
+{
+_putchar(' ');
+}
+print_number(product);
+}
+if (j < 9)
+{
+_putchar(',');
+}
+j++;
+}
+_putchar('\n');
+i++;
+}
+}
+
