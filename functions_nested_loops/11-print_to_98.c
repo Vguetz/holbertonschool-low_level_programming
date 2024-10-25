@@ -48,10 +48,7 @@ void print_to_98(int n)
 			n--;
 
 		}
-	} else
-	{
-		_putchar('9');
-		_putchar('8');
 	}
+	print_number(98);
 	_putchar('\n');
 }
