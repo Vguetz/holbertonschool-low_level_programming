@@ -31,7 +31,7 @@ void print_to_98(int n)
 {
 	if (n < 98)
 	{
-		while (n <= 98)
+		while (n < 98)
 		{
 			print_number(n);
 			_putchar(',');
@@ -40,7 +40,7 @@ void print_to_98(int n)
 		}
 	} else if (n > 98)
 	{
-		while (n >= 98)
+		while (n > 98)
 		{
 			print_number(n);
 			_putchar(',');
