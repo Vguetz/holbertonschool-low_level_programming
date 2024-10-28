@@ -1,7 +1,8 @@
 #include "main.h"
 /**
+ * print_numbers - function that prints numbers between 0 and 10
  *
- *
+ * Return: void
  */
 void print_numbers(void)
 {
