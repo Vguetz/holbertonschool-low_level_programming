@@ -2,8 +2,10 @@
 #include <stdio.h>
 
 /**
+ * _isdigit - integer to analyze
+ * @c: parameter to analyze
  *
- *
+ * Return: 1 if number 0 if letter
  *
  */
 
