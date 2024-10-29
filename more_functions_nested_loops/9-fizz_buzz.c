@@ -1,5 +1,10 @@
 #include <stdio.h>
-
+/**
+ * main - fizz buzz function
+ *
+ *
+ * Return: always 0
+ */
 
 int main(void)
 {
@@ -14,8 +19,8 @@ int main(void)
 		else if (i % 5 == 0)
 			printf("Buzz ");
 		else
-			printf("%d ",i);
-				
+			printf("%d ", i);
+
 				i++;
 	}
 	return (0);
