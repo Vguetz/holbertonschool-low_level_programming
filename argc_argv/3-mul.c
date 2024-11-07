@@ -1,6 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+/**
+ * main - function to mul 2 nums
+ * @argc: argument count
+ * @argv: argument vector
+ *
+ * Return: always 0
+ *
+ *
+ */
 int main(int argc, char *argv[])
 {
 	int mul = 0;
