@@ -13,13 +13,17 @@
 char *_strdup(char *str)
 {
 	int i = 0;
-	int sizeOfString;
+	int sizeOfString = 0;
 	char *duplicatedStr;
 
 	if (str == NULL)
 		return (NULL);
 
-	sizeOfString = strlen(str);
+	while (str[sizeOfString] < '\0')
+	{
+		sizeOfString++;
+	}
+
 	duplicatedStr = malloc((sizeOfString + 1) * sizeof(char));
 
 
